@@ -176,3 +176,7 @@ def bg_score(val):
 
 st.dataframe(disp.style.applymap(bg_score, subset=["score"]),
              use_container_width=True, height=450)
+
+
+if st.button("Fetch Latest News"):
+    run_agent()
