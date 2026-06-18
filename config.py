@@ -1,11 +1,11 @@
 import os
 
 # Supabase
-SUPABASE_URL = os.getenv("SUPABASE_URL", "")      # https://xxxx.supabase.co
-SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")      # anon/public key
+SUPABASE_URL = os.getenv("https://spukyuhugjzeydrddmxb.supabase.co/rest/v1/", "")      # https://xxxx.supabase.co
+SUPABASE_KEY = os.getenv("spukyuhugjzeydrddmxb", "")      # anon/public key
 
 # Gemini
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.getenv("AQ.Ab8RN6LcsDwuLU1nBHuzUmrX49z1STxVujllWBXqzrlIjLsq2Q", "")
 
 # News RSS Sources (Indian Financial News)
 NEWS_SOURCES = [
