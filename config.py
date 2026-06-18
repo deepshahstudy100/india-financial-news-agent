@@ -1,11 +1,8 @@
 import os
 
-# Supabase
-SUPABASE_URL = os.getenv("https://spukyuhugjzeydrddmxb.supabase.co/rest/v1/", "")      # https://xxxx.supabase.co
-SUPABASE_KEY = os.getenv("sb_publishable_5v1ckfJtGA8JzC4K3NR2sQ_FbTnuaOP", "")      # anon/public key
-
-# Gemini
-GEMINI_API_KEY = os.getenv("AQ.Ab8RN6LcsDwuLU1nBHuzUmrX49z1STxVujllWBXqzrlIjLsq2Q", "")
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # News RSS Sources (Indian Financial News)
 NEWS_SOURCES = [
@@ -25,7 +22,7 @@ INDICES = {
     "NIFTY_IT":     "^CNXIT",
     "NIFTY_AUTO":   "^CNXAUTO",
     "NIFTY_PHARMA": "^CNXPHARMA",
-    "NIFTY_FMCG":   "^CNXFMCG",
+    "NIFTY_FMCG":   "^CNXFMCG",z
     "NIFTY_METAL":  "^CNXMETAL",
     "NIFTY_REALTY": "^CNXREALTY",
 }
