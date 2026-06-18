@@ -1,10 +1,10 @@
 import logging
-from agent.scraper        import fetch_all_news
-from agent.sentiment      import rate_batch
-from agent.database       import insert_articles
+from agent.scraper import fetch_all_news
+from agent.sentiment import rate_batch
+from agent.database import insert_articles
 from agent.trend_analyzer import compute_all_trends
-from agent.index_tracker  import fetch_all_indices
-from agent.reporter       import generate_report
+from agent.index_tracker import fetch_all_indices
+from agent.reporter import generate_report
 
 logging.basicConfig(
     level=logging.INFO,
