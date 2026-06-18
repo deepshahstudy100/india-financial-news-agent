@@ -2,7 +2,7 @@ import os
 
 # Supabase
 SUPABASE_URL = os.getenv("https://spukyuhugjzeydrddmxb.supabase.co/rest/v1/", "")      # https://xxxx.supabase.co
-SUPABASE_KEY = os.getenv("spukyuhugjzeydrddmxb", "")      # anon/public key
+SUPABASE_KEY = os.getenv("sb_publishable_5v1ckfJtGA8JzC4K3NR2sQ_FbTnuaOP", "")      # anon/public key
 
 # Gemini
 GEMINI_API_KEY = os.getenv("AQ.Ab8RN6LcsDwuLU1nBHuzUmrX49z1STxVujllWBXqzrlIjLsq2Q", "")
