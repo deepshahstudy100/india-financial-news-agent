@@ -2,7 +2,7 @@ feedparser==6.0.11
 beautifulsoup4==4.12.3
 google-generativeai==0.7.2
 yfinance==0.2.40
-supabase==2.5.3
+supabase
 streamlit==1.35.0
 plotly==5.22.0
 pandas==2.2.2
